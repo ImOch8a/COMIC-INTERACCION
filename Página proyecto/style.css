@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo{
+    background-image: url(./img/Recurso\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 100px;
+}
+.barra .tamaño{
+    width: 250px;
+    height: 85px;
+}
+.buscador {
+border-radius: 15px;
+border: 0px;
+padding: 5px;
+padding-left: 10px;
+}
+.menub{
+    width: 45px;
+}
+.menuc{
+    border: none;
+    background-color:#80E1E8;
+}
+.form{
+    position: relative;
+}
+.form-input{
+    text-indent: 25px;
+}
+.lupa{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.drch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5bcbd3;
+    margin-top: 7rem;
+    padding: 2rem;
+}
+
+
+.conjunto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conjunto_2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 800px) {
+    .logo{
+        background-image: url(./img/Recurso\ 2.png);
+    }
+    .barra .tamaño{
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+}
+}
+
+@media (max-width: 575px){
+    .logo{
+        margin-left: 200px;
+        margin-bottom: 10px;
+        width: 100rem;
+    }
+}
+
+/*CONTENIDO*/
+
+.contenido{
+    display: flex;
+}
+
+article{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.Coscu{
+    width: 50rem;
+}
+
+.cont1{
+    text-align: center;
+}
+
+.colores{
+    margin-bottom: 40px;
+}
+
+.title{
+    text-align: left;
+    font-size: 5rem;
+}
+
+/*COLOR*/
+
+.c1{
+    width: 100px;
+    background-color: blue;
+}
+
+.c2{
+    width: 100px;
+    background-color: yellow;
+}
+
+.c3{
+    width: 100px;
+    background-color: red;
+}
+
+.c4{
+    width: 100px;
+    background-color: burlywood;
+}
+
+.c5{
+    width: 100px;
+    background-color: black;
+}
+
